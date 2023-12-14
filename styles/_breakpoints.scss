@@ -1,0 +1,8 @@
+// Mobil cihazalarda devreye girecek. 
+@mixin sm {
+    @media (max-width: 768px) {
+      // content sayesinde  include ile gönderidiğimiz
+      // stiller buraya aktarılır.
+      @content;
+    }
+  }
